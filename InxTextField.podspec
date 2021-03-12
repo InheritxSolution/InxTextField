@@ -37,8 +37,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "LICENCE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/InxTextField.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/InheritxSolution/InxTextField.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
